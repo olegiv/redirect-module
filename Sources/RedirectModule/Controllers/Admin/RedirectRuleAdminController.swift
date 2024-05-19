@@ -11,7 +11,7 @@ import Feather
 import RedirectObjects
 
 struct RedirectRuleAdminController: AdminController {
-    typealias ApiModel = Redirect.Rule
+    typealias ApiModel = RedirectObjects.Redirect.Rule
     typealias DatabaseModel = RedirectRuleModel
     
     typealias CreateModelEditor = RedirectRuleEditor
